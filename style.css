@@ -1,0 +1,55 @@
+/* Configurações gerais para o body */
+body {
+    background-color: rgb(189, 192, 196); /* Define a cor de fundo do corpo da página */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão para o texto */
+    padding: 2%; /* Adiciona um espaçamento interno ao redor do conteúdo do body */
+}
+
+/* Estilo para o cabeçalho */
+.cabecalho {
+    display: flex; /* Ativa o flexbox para o cabeçalho */
+    justify-content: space-between; /* Distribui o espaço entre os elementos filhos */
+    align-items: center; /* Centraliza verticalmente os elementos filhos */
+}
+
+/* Estilo para o título principal */
+h1 {
+    padding: 10%; /* Adiciona um espaçamento interno ao redor do título */
+}
+
+/* Estilo para a imagem do cabeçalho */
+img {
+    float: right; /* Alinha a imagem à direita do seu container */
+    margin-left: 10px; /* Adiciona um espaço à esquerda da imagem */
+    padding: 1%; /* Adiciona um espaçamento interno ao redor da imagem */
+}
+
+/* Estilo para os links na seção de contato */
+.contato a {
+    text-align: left; /* Alinha o texto do link à esquerda */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: inherit; /* Mantém a cor padrão do texto para os links */
+    display: inline-block; /* Faz o link se comportar como um bloco inline */
+    padding: 5px 10px; /* Adiciona um espaçamento interno ao redor do conteúdo do link */
+    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para a propriedade box-shadow */
+}
+
+/* Estilo para links quando estão sendo "clicados" */
+.contato a:active {
+    text-decoration: none; /* Remove o sublinhado quando o link está sendo clicado */
+}
+
+/* Estilo para links quando estão "hover" (passando o mouse por cima) */
+.contato a:hover {
+    box-shadow: 0 0 10px rgba(2, 2, 2, 0.2); /* Adiciona uma sombra suave ao redor do link */
+}
+/* Estilo para a mensagem nos links */
+.link-mensagem {
+    display: block; /* Transforma o elemento em um bloco, para que ele apareça em uma linha separada */
+    font-size: 12px; /* Define o tamanho da fonte */
+    margin-top: 5px; /* Adiciona um pequeno espaçamento acima do texto */
+    color: #888; /* Define a cor do texto para um cinza mais claro */
+}
+.contato p{
+    display: block;
+}
